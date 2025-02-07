@@ -1,10 +1,8 @@
 import { Metadata } from "next"
-import { Button } from "components/Button/Button"
-
 
 
 export const metadata: Metadata = {
-  title: "MyStiCa",
+  title: "MyStiCa Terms of Services",
   twitter: {
     card: "summary_large_image",
   },
@@ -20,27 +18,18 @@ export const metadata: Metadata = {
   },
 }
 
-export default function Web() {
+export default function TermsOfServices() {
   return (
     <>
       <section className="bg-white dark:bg-gray-900 flex items-center h-screen">
         <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl leading-none font-extrabold tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-              MyStiCa
+              Terms Of Services
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-            Provide a comprehensive digital platform for spiritual practitioners offering esoteric calculators, astrological data, and mystical tools, all in one user-friendly SaaS solution.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non animi veniam est, sed ab pariatur fugiat vel. Odio dolore animi voluptatem delectus beatae ullam harum deserunt libero porro praesentium!
             </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
-            </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
-              Deploy Now
-            </Button>
           </div>
         </div>
       </section>
